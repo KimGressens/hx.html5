@@ -43,8 +43,8 @@ typedef CanvasRenderingContext2D = {
 	
 	// rects
 	function clearRect( x : Int, y : Int, w : Int, h : Int ) : Void;
-	function fillRect( x : Int, y : Int, w : Int, h : Int ) : Void;
-	function strokeRect( x : Int, y : Int, w : Int, h : Int ) : Void;
+	function fillRect( x : Float, y : Float, w : Int, h : Int ) : Void;
+	function strokeRect( x : Float, y : Float, w : Int, h : Int ) : Void;
 		
 	// path API
 	function beginPath() : Void;
